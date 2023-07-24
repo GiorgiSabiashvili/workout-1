@@ -93,13 +93,42 @@ text-align: center;
     
 
     .main{
-        background-color: blue;
+       background-color: blue;
        display: flex ;
        flex-wrap: wrap;
        justify-content: space-around;
+      
     }
    
 
+    @media screen and (max-width: 1200px) {
+       img { width:80%;
+            height: 300px}
+        .item{
+             margin: 8px;
+          }
+    }
+
+    @media screen and (max-width: 800px) {
+       img { width:90%;
+            height: 300px}
+        .item{
+             width: 45%;
+             margin: 6px;
+            }
+           
+    }
+    @media screen and (max-width: 500px) {
+       img { 
+            width:80%;
+            height: 300px
+            }
+       .item{
+             width: 80%;
+             margin: 3px;
+            }
+    }
+    
 </style>
 
 
